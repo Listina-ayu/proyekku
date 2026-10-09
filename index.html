@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="id">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f6f8f5">
+  <meta name="description" content="HeruAI adalah chatbot heuristik lokal tentang Bojonegoro, tanpa API dan tanpa framework.">
+  <title>HeruAI — Teman ngobrol Bojonegoro</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="knowledge.js" defer></script>
+  <script src="app.js" defer></script>
+</head>
+<body>
+  <main class="app-shell">
+    <aside class="sidebar" aria-label="Informasi HeruAI">
+      <a class="brand" href="./" aria-label="HeruAI beranda">
+        <span class="brand-mark" aria-hidden="true">H</span>
+        <span class="brand-copy"><strong>HeruAI</strong><small>Teman ngobrol Bojonegoro</small></span>
+      </a>
+
+      <div class="privacy-card">
+        <span class="privacy-icon" aria-hidden="true">◎</span>
+        <div><strong>Pribadi & lokal</strong><p>Percakapan diproses di browser ini. Tidak ada API atau server AI.</p></div>
+      </div>
+
+      <div class="sidebar-section">
+        <p class="eyebrow">CAKUPAN PENGETAHUAN</p>
+        <ul class="topic-list">
+          <li><span>◎</span> Wilayah & pemerintahan</li>
+          <li><span>▤</span> Layanan publik</li>
+          <li><span>⌂</span> Pendidikan & kesehatan</li>
+          <li><span>↗</span> Ekonomi & pertanian</li>
+          <li><span>✳</span> Budaya, wisata & kuliner</li>
+          <li><span>◉</span> Lingkungan & kebencanaan</li>
+        </ul>
+      </div>
+
+      <div class="sidebar-note">
+        <strong>Jawaban yang jujur</strong>
+        <p>HeruAI mencari kecocokan kata dan konteks dari basis pengetahuan lokal. Informasi dinamis perlu diperiksa ke sumber resmi.</p>
+      </div>
+      <div class="sidebar-footer">HEURISTIK LOKAL <span>•</span> TANPA INTERNET</div>
+    </aside>
+
+    <section class="chat-panel" aria-label="Percakapan HeruAI">
+      <header class="topbar">
+        <div class="assistant-status">
+          <span class="avatar" aria-hidden="true">H</span>
+          <div><strong>HeruAI</strong><span><i class="status-dot"></i> Siap membantu</span></div>
+        </div>
+        <span class="mode-pill"><span aria-hidden="true">⌘</span> Mode heuristik</span>
+      </header>
+
+      <div class="conversation" id="conversation" aria-live="polite" aria-relevant="additions">
+        <div class="welcome" id="welcome">
+          <span class="welcome-mark" aria-hidden="true">H</span>
+          <p class="eyebrow">SUGENG RAWUH DI HERUAI</p>
+          <h1>Ada yang ingin kamu<br><span>ketahui atau ceritakan?</span></h1>
+          <p class="welcome-copy">Tanya tentang Bojonegoro, layanan publik, wisata, atau ngobrol santai. Aku akan mencari jawaban paling relevan dari pengetahuan lokal.</p>
+          <div class="suggestions" aria-label="Contoh pertanyaan">
+            <button type="button" class="suggestion" data-prompt="Apa saja kecamatan di Bojonegoro?"><span>⌖</span> Daftar kecamatan</button>
+            <button type="button" class="suggestion" data-prompt="Ceritakan tentang Kayangan Api"><span>✳</span> Wisata Bojonegoro</button>
+            <button type="button" class="suggestion" data-prompt="Apa yang harus dilakukan saat banjir?"><span>◉</span> Siaga bencana</button>
+            <button type="button" class="suggestion" data-prompt="Apa kuliner khas Bojonegoro?"><span>♨</span> Kuliner lokal</button>
+          </div>
+        </div>
+        <div class="messages" id="messages"></div>
+      </div>
+
+      <div class="composer-wrap">
+        <form class="composer" id="chat-form">
+          <label class="sr-only" for="message-input">Tulis pesan untuk HeruAI</label>
+          <textarea id="message-input" rows="1" maxlength="1000" placeholder="Tulis pesan atau pertanyaan..." autocomplete="off" required></textarea>
+          <button class="send-button" type="submit" aria-label="Kirim pesan"><span aria-hidden="true">↑</span></button>
+        </form>
+        <p class="composer-hint">Enter untuk mengirim <span>·</span> Shift + Enter untuk baris baru <span>·</span> Jangan kirim data pribadi</p>
+      </div>
+    </section>
+  </main>
+</body>
+</html>
