@@ -210,12 +210,32 @@ window.HERU_KNOWLEDGE = [
     answer: "GoFun di Jalan Veteran dikenal sebagai taman hiburan keluarga dengan wahana, area makanan, panggung, dan acara. Harga tiket, jam buka, dan wahana termasuk informasi dinamis; cek pengumuman pengelola sebelum berkunjung.",
     source: "Portal resmi pariwisata/pengelola destinasi"
   },
-  {
-    category: "Kuliner",
-    keywords: ["kuliner", "makanan khas", "makanan tradisional", "ledre", "sego gulung", "oleh oleh", "produk lokal"],
-    answer: "Kuliner dan produk lokal yang dikenal dalam dokumen antara lain Ledre, sego gulung, makanan tradisional, hasil olahan pertanian, kuliner pasar, serta produk UMKM. Untuk rekomendasi tempat makan yang lebih sesuai, sebutkan lokasi, jenis makanan, dan waktu kunjungan. Saya tidak bisa menjamin tempat buka atau status halal tanpa sumber terbaru.",
-    source: "Portal resmi pariwisata dan produk lokal Bojonegoro"
-  },
+  
+{
+  category: "Kuliner",
+  keywords: [
+    "kuliner",
+    "makanan khas",
+    "makanan tradisional",
+    "makanan bojonegoro",
+    "kuliner bojonegoro",
+    "ledre",
+    "apa itu ledre",
+    "bahan ledre",
+    "sego buwuhan",
+    "sego buwohan",
+    "nasi buwuhan",
+    "sego ces",
+    "nasi ces",
+    "kuliner masyarakat samin",
+    "oleh oleh",
+    "oleh oleh bojonegoro",
+    "produk lokal"
+  ],
+  answer: "Bojonegoro memiliki beberapa kuliner khas yang menarik untuk dikenal. Berikut penjelasannya:\n\n1. Ledre\nLedre adalah camilan khas Bojonegoro berbentuk gulungan tipis seperti stik atau wafer gulung. Makanan ini memiliki tekstur ringan dan renyah serta aroma pisang yang khas, terutama jika menggunakan pisang raja. Ledre cocok dijadikan camilan dan oleh-oleh.\n\n2. Sego Buwuhan\nSego Buwuhan adalah hidangan nasi yang berkaitan dengan tradisi hajatan atau buwuh. Nasi biasanya dibungkus dengan daun jati dan disajikan bersama lauk seperti mi kuning, momoh tempe, tewel atau nangka muda, serta sate komo berbumbu.\n\n3. Sego Ces\nSego Ces dikenal sebagai kuliner masyarakat Samin di Kecamatan Margomulyo. Hidangan ini berupa nasi dengan olahan kelapa parut berbumbu yang dimasak tanpa minyak, disertai lauk pendamping seperti tempe bacem. Penyajiannya juga menggunakan daun jati.\n\nKetiga makanan tersebut memiliki ciri khas yang berbeda: Ledre merupakan camilan, Sego Buwuhan berkaitan dengan tradisi hajatan, sedangkan Sego Ces mencerminkan kuliner masyarakat Samin.\n\nKalau kamu ingin tahu lebih lanjut, tanyakan nama makanannya, misalnya 'Apa bahan Ledre?' atau 'Apa isi Sego Buwuhan?'. Untuk lokasi penjual, harga, dan jam buka, informasi perlu diperiksa kembali dari sumber terbaru.",
+  source: "Pemkab Bojonegoro: informasi Sego Buwuhan dan Sego Ces; Pemkab Bojonegoro: informasi Ledre dan produk lokal"
+},
+
   {
     category: "Transportasi",
     keywords: ["transportasi", "angkutan", "terminal", "stasiun", "kereta", "rute", "jalan utama", "perjalanan"],

@@ -182,10 +182,12 @@
       };
     }
 
-    return {
-      text: "Hmm, aku belum punya informasi yang cukup tepercaya untuk menjawab itu—aku tidak mau asal menebak. Kalau masih seputar Bojonegoro, coba ceritakan sedikit lebih spesifik: nama kecamatan/desa, jenis layanan, atau topik yang kamu cari. Aku bisa bantu soal wilayah, layanan publik, sekolah, kesehatan, pertanian, pekerjaan, UMKM, wisata, budaya, kuliner, transportasi, sampai lingkungan. Untuk jadwal atau data terbaru, kita tetap perlu cek sumber resminya.",
-      source: ""
-    };
+   
+return {
+  text: "Hmm, aku belum punya informasi yang cukup tepercaya untuk menjawab pertanyaan itu. Aku tidak mau asal menebak, ya.\n\nTapi, aku bisa bantu kamu membahas Bojonegoro melalui tiga topik berikut:\n1. Wisata di Bojonegoro\n2. Kuliner khas Bojonegoro\n3. Wilayah dan pemerintahan Bojonegoro\n\nKamu ingin tahu yang mana? Kamu juga boleh menuliskan pertanyaan lain yang lebih spesifik.",
+  source: ""
+};
+
   }
 
   function sendMessage(value) {
